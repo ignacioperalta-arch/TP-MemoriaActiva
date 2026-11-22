@@ -11,18 +11,37 @@
     --color3A: #1c50fc;
     --color3B: #22ccf7;
     --color3C: #7023ff;
+    --color3D: #22ccf752;
+}
+
+body {
+    background-color: #000000;
 }
 
 /* 1. Header */
 
-/* 2. Body */
+/* 2. Main */
 
-body {
-    background-color: var(--color0A);
+main {
+    background-color: #fff7ad;
 }
 
-.hero {
-    background-color: #22ccf75d;
+section {
+    padding: 25px 100px ;
+    background-color: #b0faff;
+    justify-items:center;
+    
+}
+
+article {
+    padding: 25px 20px;
+    background-color: #0925c2;
+    color: #ffffff;
+    height: 250px;
+    width: 600px;
+    border-radius:12px;
+    
+    
 }
 
 /* 3. Footer */
