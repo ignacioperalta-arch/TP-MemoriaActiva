@@ -2,9 +2,31 @@
     --color0A: #ffffff;
     --color0B: #969696;
     --color0C: #000000;
-    --color1: #000000;
+    --color1A: #f71818;
+    --color1B: #ec8f15;
+    --color1C: #ff13b0;
+    --color2A: #6cf013;
+    --color2B: #0cb428;
+    --color2C: #efff14;
+    --color3A: #1c50fc;
+    --color3B: #22ccf7;
+    --color3C: #7023ff;
 }
 
+/* 1. Header */
+
+/* 2. Body */
+
 body {
-    background-color: ;
+    background-color: var(--color0A);
+}
+
+.hero {
+    background-color: #22ccf75d;
+}
+
+/* 3. Footer */
+
+footer {
+    background-color: #969696;
 }
