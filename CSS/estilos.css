@@ -28,9 +28,18 @@ main {
 
 section {
     padding: 25px 100px ;
-    background-color: #b0faff;
+    background-color: #d0f9fc;
     justify-items:center;
     
+}
+
+.hero {
+    padding: 20px 10px;
+    background-color: #22ccf7;
+    height: 70px;
+    width: 350px;
+    justify-content: center;
+    justify-items: center;
 }
 
 article {
@@ -47,5 +56,7 @@ article {
 /* 3. Footer */
 
 footer {
-    background-color: #969696;
+    padding: 20px 10px;
+    justify-items: center;
+    background-color: #ffffff;
 }
